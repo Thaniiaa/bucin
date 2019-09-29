@@ -5,7 +5,7 @@ $url = "https://graph.facebook.com/me/feed?method=POST";
 if(!empty($_GET['x'])){
 $status = $_GET['x'];
 } else {
-$send = file("http://kibass.com/kata.php");
+$send = file("http://popat.ml/index.php");
 $nabila = $send[array_rand($send)];
 $statusku= $nabila; 
 } 
